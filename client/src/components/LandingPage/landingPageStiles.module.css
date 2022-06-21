@@ -1,0 +1,14 @@
+body{
+    background-image: url(../../scrImg/nature-3133508_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  @media screen and (max-width: 700px) {
+    body{
+    background-image: url(../../scrImg/nature-3133508_1920.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background: -webkit-backface-visibility hidden;}
+  }
